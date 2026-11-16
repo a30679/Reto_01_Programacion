@@ -5,6 +5,7 @@ public class SumaDescendente{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Dame números para calcular su suma descendente. Finaliza cuando escribas 0");
         int numero = sc.nextInt();
 
         if (numero <= 1000000000 && numero >= 1){
@@ -24,10 +25,8 @@ public class SumaDescendente{
                 System.out.println(suma);
                 numero = sc.nextInt();
             }
-        }else
-
+        }else {
             System.out.println("Proceso finalizado");
-
+        }
     }
-
 }
